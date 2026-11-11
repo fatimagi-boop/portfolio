@@ -1,0 +1,10 @@
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  color: var(--red);
+  margin-right: 12px;
+}
