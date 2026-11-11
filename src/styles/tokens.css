@@ -3,3 +3,7 @@
   --text: #f4f4f5;
   --red: #e8190c;
 }
+[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #18181b;
+}
