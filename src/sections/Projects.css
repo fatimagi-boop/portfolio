@@ -1,0 +1,30 @@
+.filters {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.filters .field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.filters .field:first-child {
+  flex: 1;
+}
+
+.filters .field:last-child {
+  width: 160px;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  color: var(--text);
+  font: inherit;
+}
