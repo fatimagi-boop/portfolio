@@ -1,3 +1,3 @@
 export default function Button({ text, href }) {
-  return <a href={href}>{text}</a>;
+  return <a className="btn" href={href}>{text}</a>;
 }
