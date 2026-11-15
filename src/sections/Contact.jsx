@@ -30,17 +30,30 @@ export default function Contact() {
       <h2>Contact</h2>
       <form onSubmit={onSubmit} noValidate>
         <label htmlFor="name">Name</label>
-        <input id="name" name="name" value={form.name} onChange={onChange} />
+        <input
+          id="name"
+          name="name"
+          autoComplete="name"
+          value={form.name}
+          onChange={onChange}
+        />
         {errors.name && <p className="error">{errors.name}</p>}
 
         <label htmlFor="email">Email</label>
-        <input id="email" name="email" value={form.email} onChange={onChange} />
+        <input
+          id="email"
+          name="email"
+          autoComplete="email"
+          value={form.email}
+          onChange={onChange}
+        />
         {errors.email && <p className="error">{errors.email}</p>}
 
         <label htmlFor="message">Message</label>
         <textarea
           id="message"
           name="message"
+          autoComplete="off"
           value={form.message}
           onChange={onChange}
         />

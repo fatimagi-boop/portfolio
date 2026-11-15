@@ -1,6 +1,6 @@
-import "./Projects.css";
 import { useState } from "react";
 import { useRepos } from "../hooks/useRepos";
+import "./Projects.css";
 
 export default function Projects() {
   const [search, setSearch] = useState("");
@@ -46,6 +46,7 @@ export default function Projects() {
           <label htmlFor="search">Search</label>
           <input
             id="search"
+            autoComplete="off"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search projects..."
