@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import SakuraBackground from "./components/SakuraBackground";
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
@@ -12,6 +13,7 @@ export default function App() {
       <SakuraBackground />
       <Navbar />
       <main>
+        <Footer/>
         <Hero />
         <About />
         <Projects />
