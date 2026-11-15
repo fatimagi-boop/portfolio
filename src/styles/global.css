@@ -233,3 +233,26 @@ select {
   color: var(--text);
   font: inherit;
 }
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 56px 16px;
+  }
+
+  #hero {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .moon {
+    width: 60px;
+    height: 60px;
+  }
+}

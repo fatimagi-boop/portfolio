@@ -18,3 +18,13 @@
     flex: 1;
     min-width:240px;
 }
+@media (max-width: 480px) {
+  .about {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+}
